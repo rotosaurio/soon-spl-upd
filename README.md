@@ -36,7 +36,7 @@ yarn install
 Example of `.env.local` content:
 
 ```env
-PAYER_SECRET_KEY=[241,5,10,229,121,178,74,95,219,41,113,235,63,254,180,106,30,83,140,185,54,33,30,177,190,86,238,89,134,212,197,201,137,113,180,142,149,88,80,63,91,182,107,125,168,236,51,194,58,247,68,110,105,131,139,98,31,124,94,84,211,165,219,192]
+PAYER_SECRET_KEY=[241,5,10....]
 ```
 
 Replace the `PAYER_SECRET_KEY` value with your own private key in the format of an integer array.
