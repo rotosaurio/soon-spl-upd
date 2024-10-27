@@ -1,0 +1,32 @@
+
+{
+  "name": "soon-spl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mint": "tsx src/mint-tokens.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.9",
+    "base58": "^2.0.1",
+    "ts-node": "^10.9.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.2",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@metaplex/js": "^4.12.0",
+    "@solana/web3.js": "^1.94.0",
+    "@types/node": "^22.4.1",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  }
+}
